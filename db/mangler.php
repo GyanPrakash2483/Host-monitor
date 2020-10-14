@@ -1,4 +1,5 @@
 <?php
+//this file has to be run as often the site is to be checked
 function is_on($url) {
   $ping = explode("/", exec("ping -c 1 ".$url))[4];
   if($ping === "" || $ping === null) {
