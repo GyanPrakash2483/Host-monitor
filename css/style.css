@@ -1,0 +1,29 @@
+body {
+  background-color: #888888;
+}
+.mc { /* main container */
+  display: inline-block;
+  border: 2px solid #0000FF;
+  margin-bottom: 5px;
+  border-radius: 5px 5px 0px 0px;
+  width: 450px;
+}
+.ttle { /* site title, domain name */
+  border-bottom: 1px solid #000000;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #00C6D7;
+}
+.ch { /* units */
+  border-top: 1px solid #888888;
+  background-color: #FFFFFF;
+}
+.rd{
+  display: inline-block;
+  background-color: #FF0000;
+  border-radius: 2px 2px 2px 2px;
+}
+.gr{
+  display: inline-block;
+  background-color: #00FF00;
+  border-radius: 2px 2px 2px 2px;
+}
