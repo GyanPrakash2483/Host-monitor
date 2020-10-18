@@ -1,7 +1,7 @@
 <?php
 //this file has to be run as often the site is to be checked
 function is_on($url) {
-  if(gethostbynamel($url) !== "10.0.1.105") {
+  if(gethostbyname($url) !== gethostbyname(gethostname()) {
   $ping = explode("/", exec("ping -c 1 ".$url))[4];
   if($ping === "" || $ping === null) {
     return false;
