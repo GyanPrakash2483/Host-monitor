@@ -17,12 +17,12 @@ body {
   border-top: 1px solid #888888;
   background-color: #FFFFFF;
 }
-.rd{
+.rd{ /* red background for bad things display */
   display: inline-block;
   background-color: #FF0000;
   border-radius: 2px 2px 2px 2px;
 }
-.gr{
+.gr{ /* green background for good things display*/
   display: inline-block;
   background-color: #00FF00;
   border-radius: 2px 2px 2px 2px;
