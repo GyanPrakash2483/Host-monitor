@@ -6,6 +6,7 @@ function is_on($domain) {
   } else {
     return true;
   }
+}
 
 $i = 0;
 $sitelist = file("./sitelist.txt", FILE_IGNORE_NEW_LINES, NULL);
