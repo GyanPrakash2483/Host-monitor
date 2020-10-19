@@ -1,7 +1,7 @@
 <?php
 //this file has to be run as often the site is to be checked
-function is_on($url) {
-  if(gethostbyname($url) === gethostbyname(testillegaldomain.tld)) {
+function is_on($domain) {
+  if(gethostbyname($domain) === gethostbyname("testillegaldomain.tld")) {
     return false;
   } else {
     return true;
