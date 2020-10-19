@@ -1,17 +1,11 @@
 <?php
 //this file has to be run as often the site is to be checked
 function is_on($url) {
-  if(gethostbyname($url) !== gethostbyname(testillegaldomain.tld)) {
-  $ping = explode("/", exec("ping -c 1 ".$url))[4];
-  if($ping === "" || $ping === null) {
+  if(gethostbyname($url) === gethostbyname(testillegaldomain.tld)) {
     return false;
   } else {
     return true;
   }
-  } else {
-    return false;
-  }
-}
 
 $i = 0;
 $sitelist = file("./sitelist.txt", FILE_IGNORE_NEW_LINES, NULL);
